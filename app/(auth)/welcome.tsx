@@ -14,13 +14,13 @@ export default function HomeScreen() {
   return (
     <View style={[styles.view_, {paddingTop: insets.top, paddingBottom: insets.bottom}]}>
       <ChatBubble />
-      <Image source={require("@/assets/images/react-logo.png")} 
+      <Image source={require("@/assets/images/android-icon-monochrome.png")} 
         style={
           {height: 185,
            width: 185, 
            borderRadius: 80, 
            borderWidth: 5,
-           borderColor: "#0230ff",
+           borderColor: "#006f86",
            marginTop: 20}} 
       />
       <View style={styles.inner_view}>
